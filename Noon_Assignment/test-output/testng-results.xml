@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is now closed]]>
+    </line>
+    <line>
+      <![CDATA[Driver is now successfully shut-down]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="136575" started-at="2020-06-10T20:12:16Z" finished-at="2020-06-10T20:14:33Z">
+    <groups>
+    </groups>
+    <test name="Login to Portal Test(Flow 1)" duration-ms="98504" started-at="2020-06-10T20:12:16Z" finished-at="2020-06-10T20:13:54Z">
+      <class name="com.noon.testCases.LandingPageTest">
+        <test-method status="PASS" signature="clickSignInLinkTest()[pri:0, instance:com.noon.testCases.LandingPageTest@b62fe6d]" name="clickSignInLinkTest" duration-ms="13779" started-at="2020-06-10T20:13:09Z" description="Clicking on Login Link Test" finished-at="2020-06-10T20:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignInLinkTest -->
+      </class> <!-- com.noon.testCases.LandingPageTest -->
+      <class name="com.noon.testCases.LoginPageTest">
+        <test-method status="PASS" signature="performSignInTest()[pri:1, instance:com.noon.testCases.LoginPageTest@13acb0d1]" name="performSignInTest" duration-ms="31256" started-at="2020-06-10T20:13:23Z" description="TestCase to perform Login into Portal" finished-at="2020-06-10T20:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignInTest -->
+      </class> <!-- com.noon.testCases.LoginPageTest -->
+      <class name="com.noon.testCases.TestBase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.noon.testCases.TestBase@3c153a1]" name="setUp" is-config="true" duration-ms="51578" started-at="2020-06-10T20:12:16Z" finished-at="2020-06-10T20:13:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:com.noon.testCases.TestBase@3c153a1]" name="tearDown1" is-config="true" duration-ms="0" started-at="2020-06-10T20:13:54Z" finished-at="2020-06-10T20:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- com.noon.testCases.TestBase -->
+    </test> <!-- Login to Portal Test(Flow 1) -->
+    <test name="Hotel Search Functionality(Flow 2)" duration-ms="36150" started-at="2020-06-10T20:13:56Z" finished-at="2020-06-10T20:14:33Z">
+      <class name="com.noon.testCases.SearchHotelTest">
+        <test-method status="PASS" signature="searchHotelTest()[pri:0, instance:com.noon.testCases.SearchHotelTest@78b729e6]" name="searchHotelTest" duration-ms="12047" started-at="2020-06-10T20:14:01Z" description="Test to Search the Desired Hotel" finished-at="2020-06-10T20:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelTest -->
+      </class> <!-- com.noon.testCases.SearchHotelTest -->
+      <class name="com.noon.testCases.HotelsListingPageTest">
+        <test-method status="PASS" signature="verifyHotelNameTest()[pri:1, instance:com.noon.testCases.HotelsListingPageTest@6b4a4e18]" name="verifyHotelNameTest" duration-ms="7892" started-at="2020-06-10T20:14:13Z" description="Verification of Hotel Name" finished-at="2020-06-10T20:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelNameTest -->
+        <test-method status="PASS" signature="sortHotelListingByGuestsRatingTest()[pri:2, instance:com.noon.testCases.HotelsListingPageTest@6b4a4e18]" name="sortHotelListingByGuestsRatingTest" duration-ms="2882" started-at="2020-06-10T20:14:21Z" description="Verification of Hotel Name" finished-at="2020-06-10T20:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHotelListingByGuestsRatingTest -->
+        <test-method status="PASS" signature="verifyCurrentHotelsSortingOptionTest()[pri:3, instance:com.noon.testCases.HotelsListingPageTest@6b4a4e18]" name="verifyCurrentHotelsSortingOptionTest" duration-ms="5696" started-at="2020-06-10T20:14:24Z" description="Verification of current SortingOption of Hotel&#039;s Listing" finished-at="2020-06-10T20:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentHotelsSortingOptionTest -->
+        <test-method status="PASS" signature="fetchHotelNamesAndPricesTest()[pri:4, instance:com.noon.testCases.HotelsListingPageTest@6b4a4e18]" name="fetchHotelNamesAndPricesTest" duration-ms="3304" started-at="2020-06-10T20:14:29Z" description="Test to fetch Hotel Names and Prices" finished-at="2020-06-10T20:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchHotelNamesAndPricesTest -->
+      </class> <!-- com.noon.testCases.HotelsListingPageTest -->
+      <class name="com.noon.testCases.TestBase">
+        <test-method status="PASS" signature="initilise()[pri:0, instance:com.noon.testCases.TestBase@501edcf1]" name="initilise" is-config="true" duration-ms="174" started-at="2020-06-10T20:12:16Z" finished-at="2020-06-10T20:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilise -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.noon.testCases.TestBase@501edcf1]" name="setUp" is-config="true" duration-ms="4311" started-at="2020-06-10T20:13:56Z" finished-at="2020-06-10T20:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:com.noon.testCases.TestBase@501edcf1]" name="tearDown1" is-config="true" duration-ms="0" started-at="2020-06-10T20:14:33Z" finished-at="2020-06-10T20:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.noon.testCases.TestBase@501edcf1]" name="tearDown" is-config="true" duration-ms="13683" started-at="2020-06-10T20:14:33Z" finished-at="2020-06-10T20:14:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is now closed]]>
+            </line>
+            <line>
+              <![CDATA[Driver is now successfully shut-down]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.noon.testCases.TestBase -->
+    </test> <!-- Hotel Search Functionality(Flow 2) -->
+  </suite> <!-- Suite -->
+</testng-results>

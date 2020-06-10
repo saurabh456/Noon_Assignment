@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+   
+  <test name="Login to Portal Test(Flow 1)">
+    <classes>
+      <class name="com.noon.testCases.TestBase"/>
+      <class name="com.noon.testCases.LandingPageTest"/>
+      <class name="com.noon.testCases.LoginPageTest"/>
+    </classes>
+  </test>
+  
+  <test name="Hotel Search Functionality(Flow 2)">
+    <classes>
+      <class name="com.noon.testCases.TestBase"/>
+      <class name="com.noon.testCases.SearchHotelTest"/>
+      <class name="com.noon.testCases.HotelsListingPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

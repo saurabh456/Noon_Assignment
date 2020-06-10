@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Login to Portal Test(Flow 1)(failed)">
+    <classes>
+      <class name="com.noon.testCases.LoginPageTest">
+        <methods>
+          <include name="performSignInTest"/>
+        </methods>
+      </class> <!-- com.noon.testCases.LoginPageTest -->
+      <class name="com.noon.testCases.LandingPageTest">
+        <methods>
+          <include name="clickSignInLinkTest"/>
+        </methods>
+      </class> <!-- com.noon.testCases.LandingPageTest -->
+    </classes>
+  </test> <!-- Login to Portal Test(Flow 1)(failed) -->
+  <test thread-count="5" name="Hotel Search Functionality(Flow 2)(failed)">
+    <classes>
+      <class name="com.noon.testCases.SearchHotelTest">
+        <methods>
+          <include name="searchHotelTest"/>
+        </methods>
+      </class> <!-- com.noon.testCases.SearchHotelTest -->
+      <class name="com.noon.testCases.HotelsListingPageTest">
+        <methods>
+          <include name="fetchHotelNamesAndPricesTest"/>
+          <include name="sortHotelListingByGuestsRatingTest"/>
+          <include name="verifyHotelNameTest"/>
+          <include name="verifyCurrentHotelsSortingOptionTest"/>
+        </methods>
+      </class> <!-- com.noon.testCases.HotelsListingPageTest -->
+    </classes>
+  </test> <!-- Hotel Search Functionality(Flow 2)(failed) -->
+</suite> <!-- Failed suite [Suite] -->
